@@ -13,7 +13,7 @@ import './index.css';
 export default function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/productflow-ai">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
